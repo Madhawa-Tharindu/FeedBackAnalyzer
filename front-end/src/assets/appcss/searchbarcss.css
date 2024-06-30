@@ -1,0 +1,26 @@
+.searchbaricon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.searchbaricon:hover {
+    transform: scale(1.2);
+}
+
+#searchbar {
+    background-color: #1E1E2C;
+}
+
+#searchinput {
+    background-color: #1E1E2C;
+    border: none;
+    border-bottom: none;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: white;
+}
+#searchinput::placeholder {
+  color: white; /* Replace with your desired placeholder color */
+}
